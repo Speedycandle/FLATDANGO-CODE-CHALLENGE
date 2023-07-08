@@ -3,3 +3,13 @@ body {
     margin: 0;
     padding: 0;
   }
+  
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5a623;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
