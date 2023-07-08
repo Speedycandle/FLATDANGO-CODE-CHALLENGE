@@ -42,4 +42,21 @@ function displayFilmInfo(id) {
       <p>Showtime: ${film.showtime}</p>
       <p>${film.capacity - film.tickets_sold} tickets remaining</p>
       <button id="buyTicketBtn">Buy Ticket</button>
-  
+      
+      `;
+      const buyTicketBtn = document.getElementById('buyTicketBtn');
+      if (film.capacity - film.tickets_sold === 0) {
+        buyTicketBtn.innerText = 'Sold Out';
+        buyTicketBtn.classList.add('sold-out');
+      } else {
+        buyTicketBtn.innerText = 'Buy Ticket';
+        buyTicketBtn.classList.remove('sold-out');
+        buyTicketBtn.addEventListener('click', () => {
+          film.tickets_sold++;
+          displayFilmInfo(film.id);
+        });
+      }
+    }
+    
+    fetchFilms();
+     
