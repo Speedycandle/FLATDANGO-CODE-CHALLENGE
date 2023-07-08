@@ -23,3 +23,7 @@ body {
     flex-wrap: wrap;
     margin: 1rem 0;
   }
+  .col-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
