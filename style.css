@@ -13,3 +13,8 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
   }
+  .sub-header {
+    font-size: 1rem;
+    font-style: italic;
+    /* color: #666; */
+  }
