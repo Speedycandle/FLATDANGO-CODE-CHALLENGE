@@ -31,4 +31,15 @@ function displayFilmList() {
       filmListContainer.appendChild(filmItem);
     });
   }
+  // Function to display film information
+function displayFilmInfo(id) {
+    const film = films.find((film) => film.id === id);
+    posterCard.style.backgroundImage = `url(${film.poster})`;
+    infoCard.innerHTML = `
+      <h3>${film.title}</h3>
+      <p>Runtime: ${film.runtime} minutes</p>
+      <p>${film.description}</p>
+      <p>Showtime: ${film.showtime}</p>
+      <p>${film.capacity - film.tickets_sold} tickets remaining</p>
+      <button id="buyTicketBtn">Buy Ticket</button>
   
