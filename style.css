@@ -80,3 +80,20 @@ body {
     background-color: #ccc;
     cursor: not-allowed;
   }
+
+  film-item {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .film-item:hover {
+    background-color: #f5a623;
+  }
+  .film-item.active {
+    background-color: #f5a623;
+    color: #fff;
+  }
