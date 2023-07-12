@@ -1,8 +1,15 @@
 # Flatdango Code Challenge
 
-Link to [deployed site](https://fatouuuu.github.io/flatdango-code-challenge/)
+Link to [deployed site](https://github.com/Speedycandle/FLATDANGO-CODE-CHALLENGE)
+## Author
+- Name: Elvis Njau
+- Phone number: 0799903734
+- Email: elvisbater@gmail.com
+
 
 ## Introduction  
+
+
 
 For this challenge, I'll be working on Flatdango - an application that allows a user to purchase movie tickets from the theater.  
 
